@@ -1,0 +1,9 @@
+.vscode
+.env
+*.mp4
+build/
+*.log
+__pycache__/
+.mypy_cache/
+media/
+*.psm1
