@@ -1,0 +1,6 @@
+# Rotational velocity in km/s
+tangential_velocity = 240
+# Scale length in kpc
+scale_length = 3.0
+# Disk mass in 10^9 M_sun
+scale_mass = 34
