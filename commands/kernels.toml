@@ -1,0 +1,556 @@
+model_path = "../models/milky_way.toml"
+
+[simulation]
+# Default values if not explicitly referenced
+# If missing, each run must provide a value
+num_time_steps = 200
+time_step = 0.0095
+bend_amplitude = 0.0
+base_radius = 0.167
+max_radius = 5
+save_interval = 1
+use_gravity = true
+with_tilt = false
+numerical_scheme = "KICK_DRIFT_KICK"
+arc_length = 0.1
+
+[run-0p2-24r-none-none]
+num_rings = 24
+eccentricity = 0.2
+softening_length = 0.0
+kernel_type = "NONE"
+
+[run-0p2-24r-kernel32-short]
+num_rings = 24
+eccentricity = 0.2
+softening_length = 0.001
+kernel_type = "KERNEL_32"
+
+[run-0p2-24r-plummer-short]
+num_rings = 24
+eccentricity = 0.2
+softening_length = 0.001
+kernel_type = "PLUMMER"
+
+[run-0p2-24r-cut-short]
+num_rings = 24
+eccentricity = 0.2
+softening_length = 0.001
+kernel_type = "CUT"
+
+[run-0p2-24r-kernel32-medium]
+num_rings = 24
+eccentricity = 0.2
+softening_length = 0.01
+kernel_type = "KERNEL_32"
+
+[run-0p2-24r-plummer-medium]
+num_rings = 24
+eccentricity = 0.2
+softening_length = 0.01
+kernel_type = "PLUMMER"
+
+[run-0p2-24r-cut-medium]
+num_rings = 24
+eccentricity = 0.2
+softening_length = 0.01
+kernel_type = "CUT"
+
+[run-0p2-24r-kernel32-long]
+num_rings = 24
+eccentricity = 0.2
+softening_length = 0.05
+kernel_type = "KERNEL_32"
+
+[run-0p2-24r-plummer-long]
+num_rings = 24
+eccentricity = 0.2
+softening_length = 0.05
+kernel_type = "PLUMMER"
+
+[run-0p2-24r-cut-long]
+num_rings = 24
+eccentricity = 0.2
+softening_length = 0.05
+kernel_type = "CUT"
+
+[run-0p25-24r-none-none]
+num_rings = 24
+eccentricity = 0.25
+softening_length = 0.0
+kernel_type = "NONE"
+
+[run-0p25-24r-kernel32-short]
+num_rings = 24
+eccentricity = 0.25
+softening_length = 0.001
+kernel_type = "KERNEL_32"
+
+[run-0p25-24r-plummer-short]
+num_rings = 24
+eccentricity = 0.25
+softening_length = 0.001
+kernel_type = "PLUMMER"
+
+[run-0p25-24r-cut-short]
+num_rings = 24
+eccentricity = 0.25
+softening_length = 0.001
+kernel_type = "CUT"
+
+[run-0p25-24r-kernel32-medium]
+num_rings = 24
+eccentricity = 0.25
+softening_length = 0.01
+kernel_type = "KERNEL_32"
+
+[run-0p25-24r-plummer-medium]
+num_rings = 24
+eccentricity = 0.25
+softening_length = 0.01
+kernel_type = "PLUMMER"
+
+[run-0p25-24r-cut-medium]
+num_rings = 24
+eccentricity = 0.25
+softening_length = 0.01
+kernel_type = "CUT"
+
+[run-0p25-24r-kernel32-long]
+num_rings = 24
+eccentricity = 0.25
+softening_length = 0.05
+kernel_type = "KERNEL_32"
+
+[run-0p25-24r-plummer-long]
+num_rings = 24
+eccentricity = 0.25
+softening_length = 0.05
+kernel_type = "PLUMMER"
+
+[run-0p25-24r-cut-long]
+num_rings = 24
+eccentricity = 0.25
+softening_length = 0.05
+kernel_type = "CUT"
+
+[run-0p3-24r-none-none]
+num_rings = 24
+eccentricity = 0.3
+softening_length = 0.0
+kernel_type = "NONE"
+
+[run-0p3-24r-kernel32-short]
+num_rings = 24
+eccentricity = 0.3
+softening_length = 0.001
+kernel_type = "KERNEL_32"
+
+[run-0p3-24r-plummer-short]
+num_rings = 24
+eccentricity = 0.3
+softening_length = 0.001
+kernel_type = "PLUMMER"
+
+[run-0p3-24r-cut-short]
+num_rings = 24
+eccentricity = 0.3
+softening_length = 0.001
+kernel_type = "CUT"
+
+[run-0p3-24r-kernel32-medium]
+num_rings = 24
+eccentricity = 0.3
+softening_length = 0.01
+kernel_type = "KERNEL_32"
+
+[run-0p3-24r-plummer-medium]
+num_rings = 24
+eccentricity = 0.3
+softening_length = 0.01
+kernel_type = "PLUMMER"
+
+[run-0p3-24r-cut-medium]
+num_rings = 24
+eccentricity = 0.3
+softening_length = 0.01
+kernel_type = "CUT"
+
+[run-0p3-24r-kernel32-long]
+num_rings = 24
+eccentricity = 0.3
+softening_length = 0.05
+kernel_type = "KERNEL_32"
+
+[run-0p3-24r-plummer-long]
+num_rings = 24
+eccentricity = 0.3
+softening_length = 0.05
+kernel_type = "PLUMMER"
+
+[run-0p3-24r-cut-long]
+num_rings = 24
+eccentricity = 0.3
+softening_length = 0.05
+kernel_type = "CUT"
+
+[run-0p2-32r-none-none]
+num_rings = 32
+eccentricity = 0.2
+softening_length = 0.0
+kernel_type = "NONE"
+
+[run-0p2-32r-kernel32-short]
+num_rings = 32
+eccentricity = 0.2
+softening_length = 0.001
+kernel_type = "KERNEL_32"
+
+[run-0p2-32r-plummer-short]
+num_rings = 32
+eccentricity = 0.2
+softening_length = 0.001
+kernel_type = "PLUMMER"
+
+[run-0p2-32r-cut-short]
+num_rings = 32
+eccentricity = 0.2
+softening_length = 0.001
+kernel_type = "CUT"
+
+[run-0p2-32r-kernel32-medium]
+num_rings = 32
+eccentricity = 0.2
+softening_length = 0.01
+kernel_type = "KERNEL_32"
+
+[run-0p2-32r-plummer-medium]
+num_rings = 32
+eccentricity = 0.2
+softening_length = 0.01
+kernel_type = "PLUMMER"
+
+[run-0p2-32r-cut-medium]
+num_rings = 32
+eccentricity = 0.2
+softening_length = 0.01
+kernel_type = "CUT"
+
+[run-0p2-32r-kernel32-long]
+num_rings = 32
+eccentricity = 0.2
+softening_length = 0.05
+kernel_type = "KERNEL_32"
+
+[run-0p2-32r-plummer-long]
+num_rings = 32
+eccentricity = 0.2
+softening_length = 0.05
+kernel_type = "PLUMMER"
+
+[run-0p2-32r-cut-long]
+num_rings = 32
+eccentricity = 0.2
+softening_length = 0.05
+kernel_type = "CUT"
+
+[run-0p25-32r-none-none]
+num_rings = 32
+eccentricity = 0.25
+softening_length = 0.0
+kernel_type = "NONE"
+
+[run-0p25-32r-kernel32-short]
+num_rings = 32
+eccentricity = 0.25
+softening_length = 0.001
+kernel_type = "KERNEL_32"
+
+[run-0p25-32r-plummer-short]
+num_rings = 32
+eccentricity = 0.25
+softening_length = 0.001
+kernel_type = "PLUMMER"
+
+[run-0p25-32r-cut-short]
+num_rings = 32
+eccentricity = 0.25
+softening_length = 0.001
+kernel_type = "CUT"
+
+[run-0p25-32r-kernel32-medium]
+num_rings = 32
+eccentricity = 0.25
+softening_length = 0.01
+kernel_type = "KERNEL_32"
+
+[run-0p25-32r-plummer-medium]
+num_rings = 32
+eccentricity = 0.25
+softening_length = 0.01
+kernel_type = "PLUMMER"
+
+[run-0p25-32r-cut-medium]
+num_rings = 32
+eccentricity = 0.25
+softening_length = 0.01
+kernel_type = "CUT"
+
+[run-0p25-32r-kernel32-long]
+num_rings = 32
+eccentricity = 0.25
+softening_length = 0.05
+kernel_type = "KERNEL_32"
+
+[run-0p25-32r-plummer-long]
+num_rings = 32
+eccentricity = 0.25
+softening_length = 0.05
+kernel_type = "PLUMMER"
+
+[run-0p25-32r-cut-long]
+num_rings = 32
+eccentricity = 0.25
+softening_length = 0.05
+kernel_type = "CUT"
+
+[run-0p3-32r-none-none]
+num_rings = 32
+eccentricity = 0.3
+softening_length = 0.0
+kernel_type = "NONE"
+
+[run-0p3-32r-kernel32-short]
+num_rings = 32
+eccentricity = 0.3
+softening_length = 0.001
+kernel_type = "KERNEL_32"
+
+[run-0p3-32r-plummer-short]
+num_rings = 32
+eccentricity = 0.3
+softening_length = 0.001
+kernel_type = "PLUMMER"
+
+[run-0p3-32r-cut-short]
+num_rings = 32
+eccentricity = 0.3
+softening_length = 0.001
+kernel_type = "CUT"
+
+[run-0p3-32r-kernel32-medium]
+num_rings = 32
+eccentricity = 0.3
+softening_length = 0.01
+kernel_type = "KERNEL_32"
+
+[run-0p3-32r-plummer-medium]
+num_rings = 32
+eccentricity = 0.3
+softening_length = 0.01
+kernel_type = "PLUMMER"
+
+[run-0p3-32r-cut-medium]
+num_rings = 32
+eccentricity = 0.3
+softening_length = 0.01
+kernel_type = "CUT"
+
+[run-0p3-32r-kernel32-long]
+num_rings = 32
+eccentricity = 0.3
+softening_length = 0.05
+kernel_type = "KERNEL_32"
+
+[run-0p3-32r-plummer-long]
+num_rings = 32
+eccentricity = 0.3
+softening_length = 0.05
+kernel_type = "PLUMMER"
+
+[run-0p3-32r-cut-long]
+num_rings = 32
+eccentricity = 0.3
+softening_length = 0.05
+kernel_type = "CUT"
+
+[run-0p2-48r-none-none]
+num_rings = 48
+eccentricity = 0.2
+softening_length = 0.0
+kernel_type = "NONE"
+
+[run-0p2-48r-kernel32-short]
+num_rings = 48
+eccentricity = 0.2
+softening_length = 0.001
+kernel_type = "KERNEL_32"
+
+[run-0p2-48r-plummer-short]
+num_rings = 48
+eccentricity = 0.2
+softening_length = 0.001
+kernel_type = "PLUMMER"
+
+[run-0p2-48r-cut-short]
+num_rings = 48
+eccentricity = 0.2
+softening_length = 0.001
+kernel_type = "CUT"
+
+[run-0p2-48r-kernel32-medium]
+num_rings = 48
+eccentricity = 0.2
+softening_length = 0.01
+kernel_type = "KERNEL_32"
+
+[run-0p2-48r-plummer-medium]
+num_rings = 48
+eccentricity = 0.2
+softening_length = 0.01
+kernel_type = "PLUMMER"
+
+[run-0p2-48r-cut-medium]
+num_rings = 48
+eccentricity = 0.2
+softening_length = 0.01
+kernel_type = "CUT"
+
+[run-0p2-48r-kernel32-long]
+num_rings = 48
+eccentricity = 0.2
+softening_length = 0.05
+kernel_type = "KERNEL_32"
+
+[run-0p2-48r-plummer-long]
+num_rings = 48
+eccentricity = 0.2
+softening_length = 0.05
+kernel_type = "PLUMMER"
+
+[run-0p2-48r-cut-long]
+num_rings = 48
+eccentricity = 0.2
+softening_length = 0.05
+kernel_type = "CUT"
+
+[run-0p25-48r-none-none]
+num_rings = 48
+eccentricity = 0.25
+softening_length = 0.0
+kernel_type = "NONE"
+
+[run-0p25-48r-kernel32-short]
+num_rings = 48
+eccentricity = 0.25
+softening_length = 0.001
+kernel_type = "KERNEL_32"
+
+[run-0p25-48r-plummer-short]
+num_rings = 48
+eccentricity = 0.25
+softening_length = 0.001
+kernel_type = "PLUMMER"
+
+[run-0p25-48r-cut-short]
+num_rings = 48
+eccentricity = 0.25
+softening_length = 0.001
+kernel_type = "CUT"
+
+[run-0p25-48r-kernel32-medium]
+num_rings = 48
+eccentricity = 0.25
+softening_length = 0.01
+kernel_type = "KERNEL_32"
+
+[run-0p25-48r-plummer-medium]
+num_rings = 48
+eccentricity = 0.25
+softening_length = 0.01
+kernel_type = "PLUMMER"
+
+[run-0p25-48r-cut-medium]
+num_rings = 48
+eccentricity = 0.25
+softening_length = 0.01
+kernel_type = "CUT"
+
+[run-0p25-48r-kernel32-long]
+num_rings = 48
+eccentricity = 0.25
+softening_length = 0.05
+kernel_type = "KERNEL_32"
+
+[run-0p25-48r-plummer-long]
+num_rings = 48
+eccentricity = 0.25
+softening_length = 0.05
+kernel_type = "PLUMMER"
+
+[run-0p25-48r-cut-long]
+num_rings = 48
+eccentricity = 0.25
+softening_length = 0.05
+kernel_type = "CUT"
+
+[run-0p3-48r-none-none]
+num_rings = 48
+eccentricity = 0.3
+softening_length = 0.0
+kernel_type = "NONE"
+
+[run-0p3-48r-kernel32-short]
+num_rings = 48
+eccentricity = 0.3
+softening_length = 0.001
+kernel_type = "KERNEL_32"
+
+[run-0p3-48r-plummer-short]
+num_rings = 48
+eccentricity = 0.3
+softening_length = 0.001
+kernel_type = "PLUMMER"
+
+[run-0p3-48r-cut-short]
+num_rings = 48
+eccentricity = 0.3
+softening_length = 0.001
+kernel_type = "CUT"
+
+[run-0p3-48r-kernel32-medium]
+num_rings = 48
+eccentricity = 0.3
+softening_length = 0.01
+kernel_type = "KERNEL_32"
+
+[run-0p3-48r-plummer-medium]
+num_rings = 48
+eccentricity = 0.3
+softening_length = 0.01
+kernel_type = "PLUMMER"
+
+[run-0p3-48r-cut-medium]
+num_rings = 48
+eccentricity = 0.3
+softening_length = 0.01
+kernel_type = "CUT"
+
+[run-0p3-48r-kernel32-long]
+num_rings = 48
+eccentricity = 0.3
+softening_length = 0.05
+kernel_type = "KERNEL_32"
+
+[run-0p3-48r-plummer-long]
+num_rings = 48
+eccentricity = 0.3
+softening_length = 0.05
+kernel_type = "PLUMMER"
+
+[run-0p3-48r-cut-long]
+num_rings = 48
+eccentricity = 0.3
+softening_length = 0.05
+kernel_type = "CUT"
+
